@@ -16,6 +16,10 @@ Created: around 13-03-2021<br>
 
 ### Vortex Cannon<br>
 
+Created: around 13-03-2021<br>
+
+### Icebreaker Missile<br>
+
 Created: around 13-03-2021<br><br>
 
 ## Systems
@@ -31,5 +35,13 @@ Created: around 13-03-2021<br><br>
 ## Engines
 
 ### Torch Drive<br>
+
+Created: around 13-03-2021<br>
+
+### Small afterburning Plasma Thruster
+
+Created: around 13-03-2021<br>
+
+### Pulse-wave Thruster
 
 Created: around 13-03-2021<br>
