@@ -20,7 +20,13 @@ Created: around 13-03-2021<br>
 
 ### Icebreaker Missile<br>
 
-Created: around 13-03-2021<br><br>
+Created: around 13-03-2021<br>
+
+### Automatic Grenade Launcher
+
+Created: around 13-03-2021
+
+Updated: around 01-04-2023<br><br>
 
 ## Systems
 

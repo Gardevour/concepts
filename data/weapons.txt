@@ -95,3 +95,42 @@ outfit "Icebreaker Missile"
 		"missile strength" 200
 	description "While not the most powerful missile ever designed. The Icebreakers are specifically designed to break appart enemy fleet formations."
 	description "	[Icebreaker missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
+
+outfit "HE Grenade"
+	category "Ammunition"
+	cost 300
+	thumbnail "outfit/fragmentation grenades"
+	"mass" .2
+	"grenade capacity" -1
+	description "This is ammunition for a Dragon's breath launcher."
+
+outfit "Automatic Grenade Launcher"
+	category "Secondary Weapons"
+	cost 15000
+	thumbnail "outfit/bombardment cannon"
+	"mass" 8
+	"outfit space" -19
+	"weapon capacity" -19
+	"gun ports" -1
+	"grenade capacity" 39
+	weapon
+		sprite "projectile/he grenade"
+			"frame rate" 10
+			"random start frame"
+		sound "he_grenade"
+		ammo "HE Grenade"
+		icon "icon/emp torpedo"
+		"hit effect" "small explosion"
+		"inaccuracy" 1
+		"velocity" 10
+		"lifetime" 100
+		"reload" 25
+		"burst count" 3
+		"burst reload" 8
+		"firing energy" .2
+		"firing heat" 12
+		"shield damage" 74
+		"hull damage" 87
+		"hit force" 300
+		"heat damage" 5000
+	description "This weapon takes advantage of the poor heat transfer most starships suffer from while in the vacuum of space, by overheating them."

@@ -7,3 +7,5 @@ outfitter author
 	"Icebreaker Missile"
 	"Small afterburning Plasma Thruster"
 	"Pulse-wave Thruster"
+	"Automatic Grenade Launcher"
+	"HE Grenade"
