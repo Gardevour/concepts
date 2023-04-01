@@ -1,0 +1,97 @@
+outfit "Energy Scattergun"
+	category "Guns"
+	cost 43500
+	thumbnail "outfit/enforcer confrontation gear"
+	"mass" 8
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/mod blaster"
+		sound "mod blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 27
+		"velocity" 10
+		"lifetime" 38
+		"reload" 7
+		"burst count" 12
+		"burst reload" 1
+		"firing heat" 44.3
+		"firing energy" 13.8
+		"shield damage" 14.7
+		"hull damage" 12
+	description "In an attempt to create a more powerful version of the Energy Blaster, it was found that the energy stabalizers had a tendency to short circuit, resulting in poor accuracy. It was instead opted to allow the weapon to fire clusters of energy bolts, as if it where as shotgun."
+
+outfit "Vortex Cannon"
+	category "Guns"
+	cost 220000
+	thumbnail "outfit/ion cannon"
+	"mass" 30
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/drak bolt"
+		sound "ion"
+		"hit effect" "nuke explosion"
+		"inaccuracy" .2
+		"velocity" 20
+		"lifetime" 45
+		"reload" 60
+		"firing energy" 60
+		"firing force" 200
+		"firing heat" 160
+		"hit force" 960
+		"shield damage" 65
+		"hull damage" 70
+	description "The initial idea behind this weapon is for small ships to bombard enemies from afar without giving the enemy the opportunity to get close enough to use their weapons. Sadly, it seems that the Vortex Cannon functions better as a sporadic reverse thruster."
+
+effect "vortex impact"
+	sprite "effect/antimatter spark"
+		"no repeat"
+		"frame rate" 30
+	sound "explosion small"
+	"lifetime" 20
+	"random angle" 2
+	"random spin" 10
+	"velocity scale" -.05
+	
+outfit "Icebreaker Missile"
+	category "Secondary Weapons"
+	cost 1000000
+	thumbnail "outfit/nuke"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	weapon
+		sprite "projectile/missile"
+			"no repeat"
+			"frame rate" .25
+		sound "nuke"
+		ammo "Icebreaker Missile"
+		stream
+		icon "icon/nuke"
+		"hit effect" "nuke explosion"
+		"die effect" "missile death"
+		"inaccuracy" 1
+		"velocity" 6
+		"lifetime" 800
+		"reload" 400
+		"firing energy" 10
+		"firing heat" 400
+		"acceleration" .8
+		"drag" .1
+		"turn" 4
+		"homing" 4
+		"radar tracking" .5
+		"optical tracking" 1
+		"trigger radius" 30
+		"blast radius" 150
+		"trigger radius" 150
+		"shield damage" 2500
+		"hull damage" 1500
+		"hit force" 5000
+		"missile strength" 200
+	description "While not the most powerful missile ever designed. The Icebreakers are specifically designed to break appart enemy fleet formations."
+	description "	[Icebreaker missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"

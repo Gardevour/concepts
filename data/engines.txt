@@ -1,0 +1,60 @@
+outfit "Torch Drive"
+	category "Engines"
+	"cost" 113000
+	thumbnail "outfit/tiny korath thruster"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -14
+	"thrust" 11.2
+	"thrusting energy" 1.5
+	"thrusting heat" 3.4
+	"energy generation" .35
+	"flare sprite" "effect/korath flare/tiny"
+		"frame rate" 8
+	"flare sound" "plasma tiny"
+	description "Due to how hot the Torch Drive engines tend to run, they come with a built-in thermoelectric generator."
+
+outfit "Small afterburning Plasma Thruster"
+	category "Engines"
+	"cost" 45000
+	thumbnail "outfit/small plasma thruster"
+	"mass" 34
+	"outfit space" -40
+	"engine capacity" -40
+	"thrust" 18.4
+	"thrusting energy" 1.8
+	"thrusting heat" 3.4
+	"flare sprite" "effect/plasma flare/small"
+		"frame rate" 6
+	"flare sound" "plasma small"
+	"afterburner thrust" 8.33
+	"afterburner fuel" .20
+	"afterburner heat" 3.3
+	"afterburner effect" "small plasma afterburner"
+	description "This thruster is intended for small ships and for freighters. It comes with an integrated afterburner to give the user a bit of extra kick to escape from pursuing pirates."
+
+effect "small plasma afterburner"
+	sprite "effect/afterburner"
+		"no repeat"
+		"frame rate" 30
+	sound "afterburner"
+	"lifetime" 10
+	"random angle" 30
+	"random spin" 10
+	"random velocity" 1.
+	"velocity scale" 1.
+	
+outfit "Pulse-wave Thruster"
+	category "Engines"
+	"cost" 300000
+	thumbnail "outfit/medium quarg thruster"
+	"mass" 28
+	"outfit space" -28
+	"engine capacity" -28
+	"thrust" 23.6
+	"thrusting energy" 2.6
+	"thrusting heat" 5.0
+	"flare sprite" "effect/pulsewave"
+		"frame rate" 18
+	"flare sound" "heliarch attractor"
+	description "It also plays edm music."

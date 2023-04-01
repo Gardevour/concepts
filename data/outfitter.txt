@@ -1,0 +1,9 @@
+outfitter author
+	"Armour Plating"
+	"Energy Scattergun"
+	"Small Shield Booster"
+	"Vortex Cannon"
+	"Torch Drive"
+	"Icebreaker Missile"
+	"Small afterburning Plasma Thruster"
+	"Pulse-wave Thruster"

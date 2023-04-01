@@ -1,0 +1,21 @@
+outfit "Armour Plating"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/interference plating"
+	"mass" 12
+	"outfit space" -4
+	hull 500
+	description "While not exactly pretty or lightweight, if you find yourself on the receiving end of pirate attacks, you might want to consider adding an extra layer of protection or two."
+
+outfit "Small Shield Booster"
+	category "Systems"
+	cost 300000
+	thumbnail "outfit/small shield module"
+	"mass" 17
+	"shields" 1500
+	"outfit space" -17
+	"shield generation" .1
+	"shield energy" .1
+	"energy consumption" .2
+	"shield heat" 3
+	description "This outfit gives a small boost to your ships shields."
